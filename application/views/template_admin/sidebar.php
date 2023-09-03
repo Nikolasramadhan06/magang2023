@@ -1,0 +1,58 @@
+  <!-- Left side column. contains the logo and sidebar -->
+
+  <aside class="main-sidebar">
+    <!-- sidebar: style can be found in sidebar.less -->
+    <section class="sidebar">
+      
+      <!-- sidebar menu: : style can be found in sidebar.less -->
+      <ul class="sidebar-menu" data-widget="tree">
+        <li class="header">MAIN NAVIGATION</li>
+
+         <li class="list">
+          <a href="<?php echo base_url('admin/kegiatan'); ?>">
+            <i class="fa fa-folder-open-o"></i> <span>Informasi</span>
+          </a>
+        </li>
+        <li class="list">
+          <a href="<?php echo base_url('admin/slide'); ?>">
+            <i class="fa fa-picture-o"></i> <span>Slide</span>
+          </a>
+        </li>
+        <li class="list">
+          <a href="<?php echo base_url('admin/pesan'); ?>">
+            <i class="fa fa-comments-o"></i> <span>Pesan</span>
+          </a>
+        </li>
+        <li class="list">
+          <a href="<?php echo base_url('admin/struktur'); ?>">
+            <i class="fa fa-university"></i> <span>Struktur</span>
+          </a>
+        </li>
+        <li class="list">
+          <a href="<?php echo base_url('admin/bidang'); ?>">
+            <i class="fa fa-users"></i> <span>Pegawai</span>
+          </a>
+        </li>
+
+        <li class="list">
+          <a href="<?php echo base_url('admin/identitas'); ?>">
+            <i class="fa fa-pie-chart"></i>
+            <span>Setting</span>
+          </a>
+          <!-- 
+          <ul class="treeview-menu">
+            <li><a href="<?php echo base_url('admin/identitas') ?>"><i class="fa fa-circle-o"></i> Identitas Perusahaan</a></li>
+            <li><a href="pages/charts/morris.html"><i class="fa fa-circle-o"></i> Portfolio</a></li>
+          </ul> -->
+        </li>
+
+        <li class="list">
+          <a onclick="return confirm('Yakin Akan Akan Keluar?');" href="<?php echo base_url(''); ?>">
+            <i class="fa fa-sign-out"></i> <span>Logout</span>
+          </a>
+        </li>
+
+      </ul>
+    </section>
+    <!-- /.sidebar -->
+  </aside>
